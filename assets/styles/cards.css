@@ -1,0 +1,68 @@
+.cardbox {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cardhold {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next row */
+    justify-content: space-between; /* Adds space between cards */
+    padding: 0 40px; /* Left and right padding */
+    box-sizing: border-box;
+}
+
+.card {
+    width: calc(100% / 6 - 25px); /* 6 cards per row with 25px space between */
+    margin-bottom: 25px; /* Space between rows */
+    margin-right: 25px; /* Space between columns */
+    height: 370px; /* Example height */
+    /* background-color: lightgray; */
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Remove extra margin-right on the last card of each row */
+.card:nth-child(6n) {
+    margin-right: 0;
+}
+.cardimg{
+    width: 100%; /* Adjust the width of the div as needed */
+    height: 300px; /* Set the desired height */
+    position: relative; /* To ensure the img can stretch inside the div */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card-details{
+    width: 100%;
+    height: 70px;
+    padding: 10px 15px;
+    /* background-color: aqua; */
+}
+.movie-title{
+    font-size: 14px;
+    color: white;
+}
+.year{
+    color: #fcfc0a;
+    width: 50px;
+    height: 25px;
+    background-color: #fcfc0a1c;
+    margin: 4px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes the image cover the entire div while maintaining aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
