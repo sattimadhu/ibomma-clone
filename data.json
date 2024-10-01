@@ -1,0 +1,303 @@
+[
+        {
+            "id": 1,
+            "title": "Devara Part 1",
+            "year": 2024,
+            "image": "./assets/images/posters/devara_part_1.jpg",
+            "trailer": "https://www.youtube.com/watch?v=5cx7rvMvAWo",
+            "cast": ["N. T. Rama Rao Jr.", "Saif Ali Khan", "Janhvi Kapoor"],
+            "genres": "Action / Drama",
+            "director": "Koratala Siva"
+        },
+        {
+            "id": 2,
+            "title": "Kill",
+            "year": 2024,
+            "image": "./assets/images/posters/kill.jpg",
+            "trailer": "https://www.youtube.com/watch?v=da7lKeeS67c",
+            "cast": ["Lakshya", "Raghav Juyal"],
+            "genres": "Action / Thriller",
+            "director": "Nikhil Nagesh Bhat"
+        },
+        {
+            "id": 3,
+            "title": "Vaazha",
+            "year": 2024,
+            "image": "./assets/images/posters/vaazha.jpg",
+            "trailer": "https://www.youtube.com/watch?v=1CyHMlo41vU",
+            "cast": ["Yogi Babu", "Aishwarya Rajesh"],
+            "genres": "Comedy/Drama",
+            "director": "M. Manikandan"
+        },
+        {
+            "id": 4,
+            "title": "Kalki 2898 AD",
+            "year": 2024,
+            "image": "./assets/images/posters/kalki_2898_ad.jpg",
+            "trailer": "https://www.youtube.com/watch?v=y1-w1kUGuz8",
+            "cast": ["Prabhas", "Deepika Padukone", "Amitabh Bachchan"],
+            "genres": "Action/Sci-Fi",
+            "director": "Nag Ashwin"
+        },
+        {
+            "id": 5,
+            "title": "Salar",
+            "year": 2023,
+            "image": "./assets/images/posters/salar_2023.jpg",
+            "trailer": "https://www.youtube.com/watch?v=4GPvYMKtrtI",
+            "cast": ["Prabhas", "Shruti Haasan"],
+            "genres": "Action/Thriller",
+            "director": "Prashanth Neel"
+        },
+        {
+            "id": 6,
+            "title": "Pushpa The Rise",
+            "year": 2021,
+            "image": "./assets/images/posters/pushpa_the_rise_part1_2021.jpg",
+            "trailer": "https://www.youtube.com/watch?v=Q1NKMPhP8PY",
+            "cast": ["Allu Arjun", "Rashmika Mandanna"],
+            "genres": "Action/Drama",
+            "director": "Sukumar"
+        },
+        {
+            "id": 7,
+            "title": "Vikram",
+            "year": 2022,
+            "image": "./assets/images/posters/vikram_2022.jpg",
+            "trailer": "https://www.youtube.com/watch?v=WC5X3i0B4cg",
+            "cast": ["Kamal Haasan", "Fahadh Faasil", "Vijay Sethupathi"],
+            "genres": "Action/Thriller",
+            "director": "Lokesh Kanagaraj"
+        },
+        {
+            "id": 8,
+            "title": "Iron Man",
+            "year": 2008,
+            "image": "./assets/images/posters/ironman_2008.jpg",
+            "trailer": "https://www.youtube.com/watch?v=8ugaeA-nMTc",
+            "cast": ["Robert Downey Jr.", "Gwyneth Paltrow"],
+            "genres": "Action/Sci-Fi",
+            "director": "Jon Favreau"
+        },
+        {
+            "id": 9,
+            "title": "Iron Man 2",
+            "year": 2010,
+            "image": "./assets/images/posters/ironman2_2010.jpg",
+            "trailer": "https://www.youtube.com/watch?v=wKtcmiifycU",
+            "cast": ["Robert Downey Jr.", "Mickey Rourke"],
+            "genres": "Action/Sci-Fi",
+            "director": "Jon Favreau"
+        },
+        {
+            "id": 10,
+            "title": "Iron Man 3",
+            "year": 2013,
+            "image": "./assets/images/posters/ironman_3_2013.webp",
+            "trailer": "https://www.youtube.com/watch?v=pad9qPQRUPc",
+            "cast": ["Robert Downey Jr.", "Gwyneth Paltrow"],
+            "genres": "Action/Sci-Fi",
+            "director": "Shane Black"
+        },
+        {
+            "id": 11,
+            "title": "RRR",
+            "year": 2022,
+            "image": "./assets/images/posters/rrr_2022.jpg",
+            "trailer": "https://www.youtube.com/watch?v=NgBoMJy386M",
+            "cast": ["N. T. Rama Rao Jr.", "Ram Charan"],
+            "genres": "Action/Drama",
+            "director": "S. S. Rajamouli"
+        },
+        {
+            "id": 12,
+            "title": "Baahubali: The Beginning",
+            "year": 2015,
+            "image": "./assets/images/posters/baahubali_the_beginning_2015.jpg",
+            "trailer": "https://www.youtube.com/watch?v=sOEg_YZQsTI",
+            "cast": ["Prabhas", "Rana Daggubati"],
+            "genres": "Action/Fantasy",
+            "director": "S. S. Rajamouli"
+        },
+        {
+            "id": 13,
+            "title": "Baahubali: The Conclusion",
+            "year": 2017,
+            "image": "./assets/images/posters/baahubali_2_the_conclusion_2017.jpg",
+            "trailer": "https://www.youtube.com/watch?v=qD-6d8Wo3do",
+            "cast": ["Prabhas", "Rana Daggubati"],
+            "genres": "Action/Fantasy",
+            "director": "S. S. Rajamouli"
+        },
+        {
+            "id": 14,
+            "title": "Sita Ramam",
+            "year": 2022,
+            "image": "./assets/images/posters/sita_ramam_2022.jpg",
+            "trailer": "https://www.youtube.com/watch?v=Ljk6tGZ1l3A",
+            "cast": ["Dulquer Salmaan", "Mrunal Thakur"],
+            "genres": "Romance/Drama",
+            "director": "Hanu Raghavapudi"
+        },
+        {
+            "id": 15,
+            "title": "Gabbar Singh",
+            "year": 2012,
+            "image": "./assets/images/posters/gabbar_singh_2012.jpg",
+            "trailer": "https://www.youtube.com/watch?v=8v7C0hqPLIg",
+            "cast": ["Pawan Kalyan", "Shruti Haasan"],
+            "genres": "Action/Comedy",
+            "director": "Harish Shankar"
+        },
+        {
+            "id": 16,
+            "title": "K.G.F: Chapter 1",
+            "year": 2018,
+            "image": "./assets/images/posters/kgf_chapter_1_2018.jpg",
+            "trailer": "https://www.youtube.com/watch?v=fnGW4iQzVLw",
+            "cast": ["Yash", "Srinidhi Shetty"],
+            "genres": "Action/Drama",
+            "director": "Prashanth Neel"
+        },
+        {
+            "id": 17,
+            "title": "Master",
+            "year": 2021,
+            "image": "./assets/images/posters/master_2021.jpg",
+            "trailer": "https://www.youtube.com/watch?v=Nvpx77eOJrU",
+            "cast": ["Vijay", "Vijay Sethupathi"],
+            "genres": "Action/Thriller",
+            "director": "Lokesh Kanagaraj"
+        },
+        {
+            "id": 18,
+            "title": "Oopiri",
+            "year": 2016,
+            "image": "./assets/images/posters/oopiri_2016.jpg",
+            "trailer": "https://www.youtube.com/watch?v=e1ddsJ38D5Q",
+            "cast": ["Akkineni Nagarjuna", "Karthi"],
+            "genres": "Drama/Comedy",
+            "director": "Vamsi Paidipally"
+        },
+        {
+            "id": 19,
+            "title": "K.G.F: Chapter 2",
+            "year": 2022,
+            "image": "./assets/images/posters/kgf_chapter_2_2022.jpg",
+            "trailer": "https://www.youtube.com/watch?v=bDTUFufX-1s",
+            "cast": ["Yash", "Sanjay Dutt"],
+            "genres": "Action/Drama",
+            "director": "Prashanth Neel"
+        },
+    
+    {
+        "id":20,
+        "title": "The Avengers",
+        "year": 2012,
+        "image": "./assets/images/posters/avengers_assemble_2012.jpg",
+        "trailer": "https://www.youtube.com/watch?v=zJUbe3t_x-M",
+        "cast": ["Robert Downey Jr.", "Chris Evans"],
+        "genres": "Action/Sci-Fi",
+        "director": "Joss Whedon"
+    },
+    {   "id":21,
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "image": "./assets/images/posters/avengers_age_of_ultron_2015.jpg",
+        "trailer": "https://www.youtube.com/watch?v=04jUmT_fOR4",
+        "cast": ["Robert Downey Jr.", "Chris Hemsworth"],
+        "genres": "Action/Sci-Fi",
+        "director": "Joss Whedon"
+    },
+        {
+            "id": 22,
+            "title": "Avengers: Infinity War",
+            "year": 2018,
+            "image": "./assets/images/posters/avengers_infinity_war_2018.jpg",
+            "trailer": "https://www.youtube.com/watch?v=CSVsSCLBgRQ",
+            "cast": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
+            "genres": ["Action", "Adventure", "Fantasy"],
+            "director": "Anthony Russo, Joe Russo"
+        },
+        {
+            "id": 23,
+            "title": "Avengers: Endgame",
+            "year": 2019,
+            "image": "./assets/images/posters/avengers_endgame_2019.jpg",
+            "trailer": "https://www.youtube.com/watch?v=F-wLx8Jzge0",
+            "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+            "genres": ["Action", "Adventure", "Drama"],
+            "director": "Anthony Russo, Joe Russo"
+        },
+        {
+            "id": 24,
+            "title": "Kantara",
+            "year": 2022,
+            "image": "./assets/images/posters/kantara_2022.jpg",
+            "trailer": "https://www.youtube.com/watch?v=Mo-fv7b77t8",
+            "cast": ["Rishab Shetty", "Sapthami Gowda", "Kishore"],
+            "genres": ["Action", "Drama", "Thriller"],
+            "director": "Rishab Shetty"
+        },
+        {
+            "id": 25,
+            "title": "2.0",
+            "year": 2018,
+            "image": "./assets/images/posters/2.0_2018.jpg",
+            "trailer": "https://www.youtube.com/watch?v=1KJkrdD8kC4",
+            "cast": ["Rajinikanth", "Akshay Kumar", "Amy Jackson"],
+            "genres": ["Action", "Sci-Fi", "Thriller"],
+            "director": "S. Shankar"
+        },
+        {
+            "id": 26,
+            "title": "Jailer",
+            "year": 2023,
+            "image": "./assets/images/posters/jailer_2023.jpg",
+            "trailer": "https://www.youtube.com/watch?v=VutF0FpL4Pw",
+            "cast": ["Rajinikanth", "Shiva Rajkumar", "Mohammed Ali"],
+            "genres": ["Action", "Drama"],
+            "director": "Nelson Dilipkumar"
+        },
+        {
+            "id": 27,
+            "title": "Khaleja",
+            "year": 2010,
+            "image": "./assets/images/posters/Khaleja_2010.jpg",
+            "trailer": "https://www.youtube.com/watch?v=YraH4F8SdU0",
+            "cast": ["Mahesh Babu", "Kajal Aggarwal", "Prakash Raj"],
+            "genres": ["Action", "Comedy"],
+            "director": "Trivikram Srinivas"
+        },
+        {
+            "id": 28,
+            "title": "Jersey",
+            "year": 2019,
+            "image": "./assets/images/posters/jersey_2019.jpg",
+            "trailer": "https://www.youtube.com/watch?v=AjAe_Q1WZ_8",
+            "cast": ["Nani", "Shraddha Srinath", "Ronit Kamra"],
+            "genres": ["Drama", "Sport"],
+            "director": "Gowtam Tinnanuri"
+        },
+        {
+            "id": 29,
+            "title": "Billa",
+            "year": 2009,
+            "image": "./assets/images/posters/billa_2009.jpg",
+            "trailer": "https://www.youtube.com/watch?v=1qM4yQhWr0A",
+            "cast": ["Prabhas", "Kajal Aggarwal", "Anushka Shetty"],
+            "genres": ["Action", "Thriller"],
+            "director": "Meher Ramesh"
+        },
+        {
+            "id": 30,
+            "title": "I",
+            "year": 2015,
+            "image": "./assets/images/posters/i_2015.jpg",
+            "trailer": "https://www.youtube.com/watch?v=SvZJ_ATo2aI",
+            "cast": ["Vikram", "Amy Jackson", "Suresh Gopi"],
+            "genres": ["Action", "Romance", "Thriller"],
+            "director": "S. Shankar"
+        }
+    
+]

@@ -22,7 +22,6 @@
     border-radius: 10px;
     box-sizing: border-box;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
 
 /* Remove extra margin-right on the last card of each row */
@@ -35,6 +34,7 @@
     position: relative; /* To ensure the img can stretch inside the div */
     overflow: hidden;
     border-radius: 10px;
+    box-shadow: 0px 0px 2px 0.1px #888888;
 }
 .card-details{
     width: 100%;

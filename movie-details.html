@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBOMMA</title>
+    <link rel="stylesheet" href="./assets/styles/download.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo-hold"><img src="./assets/images/logo.png" class="logo" alt=""></div>
+            <div class="links">
+                <a href="" class="home"><i class="fa-solid fa-house-chimney"></i><span>Home</span></a>
+                <a href="" class="about"><i class="fa-solid fa-user"></i><span>About</span></a>
+                <a href="" class="bug"><i class="fa-solid fa-bug"></i><span>Bug</span></a>
+                <div class="input-hold">
+                    <input type="text" class="search-bar" placeholder="Search..">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="box">
+            <div class="poster-area">
+                <div class="card"><div class="cardimg"><img src="./assets/images/posters/devara_part_1.jpg" alt="" class="poster"></div></div>
+            </div>
+            <div class="contentbox">
+                <div class="movie-details">
+                    <p class="title">Devara Part 1</p>
+                    <p class="year">2024</p>
+                    <p class="genres">Drama / Action / Thriller</p>
+                </div>
+                <div class="cast-director">
+                    <div class="cast"><i class="fa-solid fa-user"></i><span>Cast:</span><p class="cast-names">NTR Jr</p></div>
+                    <div class="director"><i class="fa-solid fa-user"></i><span>Director:</span><p class="director-name">Koratala siva</p></div>
+                </div>
+                <div class="trailer-download">
+                    <a href="#" class="trailer" target="_blank">TRAILER</a>
+                    <a href="#" class="download">DOWNLOAD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/functions/card-actions.js"></script>
+     <script>
+        const params = new URLSearchParams(window.location.search);
+        const movieId = params.get('id');
+        fetch('./data.json')
+            .then(res => res.json())
+            .then(data =>{
+                
+                const movie = data.find(movie => movie.id == movieId);
+                document.querySelector('.poster').src=movie.image;
+                document.querySelector('.title').textContent = movie.title;
+                document.querySelector('.year').textContent = movie.year;
+                document.querySelector('.genres').textContent = movie.genres;
+                document.querySelector('.cast-names').textContent = movie.cast;
+                document.querySelector('.director-name').textContent = movie.director;
+                document.querySelector('.trailer').href = movie.trailer;
+            })
+     </script>
+</body>
+</html>
