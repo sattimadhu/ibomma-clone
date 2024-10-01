@@ -114,3 +114,11 @@ font-weight: 100px;
     font-weight: 100;
     line-height: 1.5;
 }
+::-webkit-scrollbar{
+    background-color: #2f2f2f;
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fcfc0a;
+    border-radius: 10px;
+}
