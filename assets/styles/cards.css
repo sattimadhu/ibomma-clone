@@ -66,3 +66,79 @@
     left: 0;
     cursor: pointer;
 }
+
+/* Media-queries */
+
+@media only screen and (max-width: 600px){
+    .cardbox {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .cardhold {
+        display: flex;
+        flex-wrap: wrap; /* Allows wrapping to the next row */
+        justify-content: space-between; /* Adds space between cards */
+        padding: 0 1px; /* Left and right padding */
+        box-sizing: border-box;
+        flex-direction: row;
+    }
+    
+    .card {
+        width: 100px; /* 6 cards per row with 25px space between */
+        margin-bottom: 25px; /* Space between rows */
+        margin-right: 5px; /* Space between columns */
+        height: 210px; /* Example height */
+        /* background-color: lightgray; */
+        /* border: 1px solid #ccc; */
+        border-radius: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    /* Remove extra margin-right on the last card of each row */
+    .card:nth-child(6n) {
+        margin-right: 0;
+    }
+    .cardimg{
+        width: 100%; /* Adjust the width of the div as needed */
+        height: 155px; /* Set the desired height */
+        position: relative; /* To ensure the img can stretch inside the div */
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px 0.1px #888888;
+    }
+    .card-details{
+        width: 100%;
+        height: 50px;
+        padding: 10px 5px;
+        /* background-color: aqua; */
+    }
+    .movie-title{
+        font-size: 10px;
+        color: white;
+    }
+    .year{
+        color: #fcfc0a;
+        width: 40px;
+        height: 20px;
+        background-color: #fcfc0a1c;
+        margin: 4px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 5px;
+        font-size: 8px;
+        overflow: hidden;
+    }
+    .cardimg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Makes the image cover the entire div while maintaining aspect ratio */
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    } 
+}

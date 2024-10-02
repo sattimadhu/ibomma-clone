@@ -24,11 +24,15 @@
     align-items: center;
     box-sizing: border-box;
 }
+.logo-hold{
+    overflow: hidden;
+}
 .logo{
     width: 125px;
     height: auto;
     margin-left: 70px;
     cursor: pointer;
+    
 }
 .links{
     width: 700px;
@@ -124,4 +128,93 @@ font-weight: 100px;
     background-color: #fcfc0a;
     border-radius: 10px;
     cursor: pointer;
+}
+
+
+/* Media-queries */
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: 100px;
+    }
+    .logo{
+        width: 80px;
+        height: auto;
+        margin-left: 10px;
+        cursor: pointer;
+        
+    }
+    .links{
+        width: 250px;
+        height: 100%;
+        padding-left: 8px;
+    }
+    .links a{
+        text-decoration: none;
+        /* background-color: red; */
+        width: 60px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .links a i{
+        color: #fcfc0a;
+        font-size: 15px;
+    }
+    .links a span{
+    display: none;
+    }
+    .input-hold{
+        width: 200px;
+        height: 37px;
+        /* background-color: darkblue; */
+        box-sizing: border-box;
+        position: relative;
+    }
+    .search{
+        position: absolute;
+        right: 0px;
+        width: 50px;
+        height: 100%;
+        background-color: #fcfc0a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       border-top-right-radius: 50px;
+       border-bottom-right-radius: 50px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .search-bar::placeholder{
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .box{
+        /* background-color: red; */
+        width: 100%;
+        height: 150px;
+    }
+    .contentbox h1{
+        font-size: 22px;
+        color: whitesmoke;
+        font-weight: 100;
+        text-align: center;
+    }
+    .contentbox p{
+        text-align: center;
+        color: whitesmoke;
+        margin-top: 25px;
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 1.5;
+    }
+    .container::-webkit-scrollbar{
+        background-color: #2f2f2f;
+        border-radius: 2px;
+        width: 8px;
+    }
+    .container::-webkit-scrollbar-thumb{
+        background-color: #fcfc0a;
+        border-radius: 10px;
+        cursor: pointer;
+    }
 }

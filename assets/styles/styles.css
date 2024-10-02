@@ -30,7 +30,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    /* position: fixed; */
 }
 .right{
     color: whitesmoke;
@@ -93,4 +93,64 @@
     border-radius: 5px;
     font-size: 15px;
     background:linear-gradient(to right,#2f2f2f 30%,black); ;
+}
+
+
+/* Media-queries */
+
+@media only screen and (max-width: 600px) {
+    .box1{
+      width: 320px;
+      height: 200px;
+    }
+    .part0{
+        width: 250px;
+        height: auto;
+  }
+  .logo{
+    width: 90px;
+    height: auto;
+    margin-top: 16px;
+}
+.ibomma{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    color: #fcfc0a;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.enter{
+    margin-top: 1px;
+    position: relative;
+}
+.enter-btn{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 15px;
+    background-color: #fcfc0a;
+    color:#0e0e0e;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 8px;
+}
+.logo-part p{
+    font-size: 8px;
+    margin-top: 8px;
+}
+.right{
+    color: whitesmoke;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.enter p{
+    font-size: 7px;
+    position: absolute;
+    bottom: 20px;
+}
 }
